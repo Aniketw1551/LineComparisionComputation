@@ -18,7 +18,7 @@ namespace LineComparisonComputation
             distance1 = lc1.Length();
             LineComputation lc2 = new LineComputation(3.6, 4.4, 1.2, 2.4);
             distance2 = lc2.Length();
-            LineComputation lc3 = new LineComputation(2.7, 4.1, 2.2, 3.8);
+            LineComputation lc3 = new LineComputation(2.7, 4.1, 2.2, 3.7);
             distance3 = lc3.Length();
             Console.WriteLine("Length of Line1: " + distance1);
             Console.WriteLine("Length of Line2: " + distance2);
