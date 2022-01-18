@@ -13,7 +13,7 @@ namespace LineComparisonComputation
         {
             //Printing message on console
             Console.WriteLine("Welcome to Line Comparision Computation Program");
-            LineEquality.CheckLine();  // calling static method of program class.
+            LineComputation.LengthofLines();  // calling static method of program class.
             Console.ReadLine();
         }
     }
